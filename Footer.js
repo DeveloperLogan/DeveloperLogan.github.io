@@ -10,7 +10,7 @@ footer {
 
 footer h3 {
     color : white;
-    text-align: center;
+    align: center;
 }
 </style>
 `;
