@@ -3,13 +3,18 @@ var navbar = document.getElementById("navbar");
 
 var css = `
 <style>
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: sticky;
 }
   
 nav li {
