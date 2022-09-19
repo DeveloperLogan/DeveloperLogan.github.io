@@ -7,7 +7,7 @@ var css = `
 nav {
     position: -webkit-sticky;
     position: sticky;
-    top: -5;
+    top: 0;
 
 }
 nav ul {
