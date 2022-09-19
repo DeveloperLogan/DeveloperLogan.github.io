@@ -7,13 +7,17 @@ footer {
     height: 100px;
     background-color: #333;
 }
+
+footer h3 {
+    color : white;
+}
 </style>
 `;
 
 
 var html = `
 <footer>
-<h1>hello world</h1>
+<h3>hello world</h3>
 </footer>
 `;
 
