@@ -11,6 +11,7 @@ footer {
 footer p1 {
     color : white;
     align: center;
+    padding: 4px;
 }
 </style>
 `;
@@ -18,7 +19,7 @@ footer p1 {
 
 var html = `
 <footer>
-<p1>hello world</p1>
+<p1>2022 Logan Bowman</p1>
 </footer>
 `;
 
