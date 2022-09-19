@@ -1,4 +1,5 @@
 var navbar = document.getElementById("navbar");
+var title = document.title;
 
 
 var css = `
@@ -30,22 +31,38 @@ nav li a {
     text-decoration: none;
 }
   
-nav li a:hover {
+nav li a:hover:not(.active) {
     background-color: #111;
+}
+
+.active {
+    background-color: #702963;
 }
 
 </style>
 `;
 
 
-var html = `
+var htmlHome = `
 <nav>
     <ul>
-        <li><a href="/">Home</a></li>
+        <li><a class="active" href="/">Home</a></li>
         <li><a href="/Contact">Contact</a></li>
     </ul>
 <nav>
 `;
 
+var htmlContact = `
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a class="active" href="/Contact">Contact</a></li>
+    </ul>
+<nav>
+`;
 
-navbar.outerHTML = css+html;
+if (title == "Home"){
+    navbar.outerHTML = css+htmlHome;
+} else if (title == "Contact") {
+    navbar.outerHTML = css+htmlContact;
+}
