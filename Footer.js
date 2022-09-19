@@ -8,7 +8,7 @@ footer {
     background-color: #333;
 }
 
-footer h3 {
+footer p1 {
     color : white;
     align: center;
 }
@@ -18,7 +18,7 @@ footer h3 {
 
 var html = `
 <footer>
-<h3>hello world</h3>
+<p1>hello world</p1>
 </footer>
 `;
 
