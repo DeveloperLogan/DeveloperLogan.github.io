@@ -7,14 +7,13 @@ var css = `
 nav {
     position: -webkit-sticky;
     position: sticky;
-    top: -1;
+    top: 0;
 
 }
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #333;
 }
   
